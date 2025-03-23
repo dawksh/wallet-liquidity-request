@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.13;
+pragma solidity ^0.8.27;
 
-contract LiquidityManager {
+contract LiquidityRequestor {
     event LiquidityRequested(
         bytes32 indexed hash,
         uint256 amount,
